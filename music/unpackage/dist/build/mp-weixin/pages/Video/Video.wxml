@@ -1,0 +1,1 @@
+<view class="page"><view class="page-block super-hot"><view class="hot-title-wapper"><view class="hot-title">最新MV</view></view></view><block wx:for="{{mvList}}" wx:for-item="mv" wx:for-index="__i0__"><view><video class="mv" src="{{mv.briefDesc}}" poster="{{mv.cover}}" controls="{{true}}" direction="90"></video><view class="mv-name">{{mv.name}}</view></view></block></view>

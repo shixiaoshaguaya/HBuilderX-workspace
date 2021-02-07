@@ -1,0 +1,1 @@
+<view class="footer-wapper"><view data-event-opts="{{[['tap',[['logout',['$event']]]]]}}" class="footer-words" style="margin-top:10rpx;" bindtap="__e">退出登录</view></view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "播放",
+  "usingComponents": {
+    "imt-audio": "/components/imt-audio/imt-audio"
+  }
+}

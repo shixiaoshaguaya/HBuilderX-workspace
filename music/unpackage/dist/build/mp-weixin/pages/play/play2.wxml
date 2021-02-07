@@ -1,0 +1,1 @@
+<view class="page"><view class="song"><view>{{songname}}</view><view>{{name}}</view></view><imt-audio vue-id="57bf0fea-1" autoplay="{{true}}" continue="{{true}}" src="{{url}}" bind:__l="__l"></imt-audio></view>

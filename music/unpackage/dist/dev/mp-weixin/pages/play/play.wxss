@@ -1,0 +1,12 @@
+
+.list {
+	font-size: 28rpx;
+	line-height: 88rpx;
+	padding-left: 30rpx;
+	background: #fff;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	margin-top: 20rpx;
+	color: #333;
+}
+

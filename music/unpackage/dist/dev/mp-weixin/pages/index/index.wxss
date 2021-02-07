@@ -1,0 +1,90 @@
+.carousel {
+	width: 100%;
+	height: 440rpx;
+}
+.search-input {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 100%;
+	margin: 0 25rpx;
+	padding: 0 15rpx;
+	border-bottom: 1px solid #d7d7d7;
+}
+.search-input .input {
+	width: 100%;
+	height: 100%;
+	font-size: 20px
+}
+/* 推荐歌单 start */
+.hot-ico {
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 15rpx;
+}
+.single-poster {
+	display: inline-block;
+	margin-left: 40rpx;
+}
+.poster-wapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.poster {
+	width: 200rpx;
+	height: 200rpx;
+}
+.movie-name {
+	width: 200rpx;
+	margin-top: 10rpx;
+	font-size: 0.5rem;
+	font-weight: bold;
+	/* name超出则省略 */
+	overflow: hidden; /* 超出的文本隐藏
+ */
+	text-overflow: ellipsis; /*显示省略号
+ */
+	display: -webkit-box; /*作为弹性伸缩盒子模型显示。
+ */
+	-webkit-box-orient: vertical; /*设置伸缩盒子的子元素排列方式--从上到下垂直排列
+ */
+	-webkit-line-clamp: 2; /*显示的行数
+ */
+}
+/* 推荐歌单 end */
+/* 排行榜 start */
+.top {
+	width: 100%;
+	height: 250rpx;
+	padding-left: 20rpx;
+	padding-bottom: 20rpx;
+}
+.top-img {
+	position: relative;
+	height: 250rpx;
+	width: 250rpx;
+	padding-right: 30rpx;
+	float: left;
+}
+.top-update {
+	position: absolute;
+	color: #FFFFFF;
+	padding-top: 210rpx;
+	padding-left: 5rpx;
+}
+.top-name {
+	padding-bottom: 10rpx;
+}
+.name {
+	width: 440rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 排行榜 end */
+

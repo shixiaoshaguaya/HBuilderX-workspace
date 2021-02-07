@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Video/Video",
+    "pages/me/me",
+    "pages/search/search",
+    "pages/play/play",
+    "pages/play/play2",
+    "pages/searchsong/searchsong",
+    "pages/registLogin/registLogin",
+    "pages/songsheet/songsheet",
+    "pages/meInfo/meInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "音乐",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/tabBarIco/home-1.png",
+        "selectedIconPath": "static/tabBarIco/home.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/tabBarIco/index.png",
+        "selectedIconPath": "static/tabBarIco/index_sel.png"
+      },
+      {
+        "pagePath": "pages/Video/Video",
+        "text": "视频",
+        "iconPath": "static/tabBarIco/video.png",
+        "selectedIconPath": "static/tabBarIco/video_sel.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/tabBarIco/me.png",
+        "selectedIconPath": "static/tabBarIco/me_sel.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap87.json"
+}
